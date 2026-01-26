@@ -1,0 +1,59 @@
+.information h3 {
+    color: red;
+}
+
+.information {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+    padding: 5%;
+}
+
+header {
+    text-align: center;
+    background-color: #1F2933;
+}
+
+header h1 {
+  color: #FFFFFF;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* center items horizontally */
+  justify-content: center;
+  width: 120px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #EEF1F6;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.2s; 
+}
+
+.language-title {
+    text-align: center;
+}
+
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #333;
+}
+
